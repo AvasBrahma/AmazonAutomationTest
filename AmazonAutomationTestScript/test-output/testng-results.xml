@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-05T19:16:07Z" name="Suite" finished-at="2021-05-05T19:17:31Z" duration-ms="83235">
+    <groups>
+    </groups>
+    <test started-at="2021-05-05T19:16:07Z" name="Test" finished-at="2021-05-05T19:17:31Z" duration-ms="83235">
+      <class name="com.testscript.automationtest.AmazonSortByFeatureTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.testscript.automationtest.AmazonSortByFeatureTest@379614be]" started-at="2021-05-06T00:46:07Z" name="setUp" finished-at="2021-05-06T00:46:53Z" duration-ms="45595" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="amazonValidateElement1(java.lang.String, java.lang.String)[pri:0, instance:com.testscript.automationtest.AmazonSortByFeatureTest@379614be]" started-at="2021-05-06T00:47:07Z" name="amazonValidateElement1" data-provider="GetData" finished-at="2021-05-06T00:47:27Z" duration-ms="19186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Electronics]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mobile Phones]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonValidateElement1 -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:com.testscript.automationtest.AmazonSortByFeatureTest@379614be]" started-at="2021-05-06T00:47:27Z" name="teardownTest" finished-at="2021-05-06T00:47:31Z" duration-ms="3957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testscript.automationtest.AmazonSortByFeatureTest@379614be]" started-at="2021-05-06T00:47:32Z" name="teardown" finished-at="2021-05-06T00:47:33Z" duration-ms="1101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testscript.automationtest.AmazonSortByFeatureTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

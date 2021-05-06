@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <parameter name="Url" value="https://www.amazon.in"/>
+  <parameter name="Browser" value="chrome"/>
+  <test parallel="none" name="Test(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="com.testscript.automationtest.AmazonSearchTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="amazonSearchTest2"/>
+          <include name="amazonSearchTest1"/>
+        </methods>
+      </class> <!-- com.testscript.automationtest.AmazonSearchTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
